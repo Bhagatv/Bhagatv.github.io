@@ -1,0 +1,98 @@
+.project-cont {
+  min-height: 300px;
+}
+
+.project-row {
+  min-height: 300px;
+  background-color: black;
+}
+.project-title-cont {
+  background-color: black;
+  position: relative;
+}
+.project-title {
+  font-size: 48px;
+  color: white;
+
+  font-weight: 300;
+}
+.project-quote {
+  color: lightgrey;
+  font-style: italic;
+  font-size: 14px;
+  max-width: 300px;
+}
+.project-desc {
+  padding: 15px;
+  position: relative;
+  background-color: rgb(248, 249, 250);
+}
+
+.project-tools {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.project-git {
+  color: black;
+  margin-top: 30px;
+  transition: all 0.1s ease-in;
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.devpost {
+  transition: all 0.1s ease-in;
+  opacity: 0;
+  text-decoration: underline;
+}
+
+.project-git:hover .devpost {
+  opacity: 1;
+}
+.project-git-link {
+  color: black;
+
+  cursor: pointer;
+}
+
+.project-git-link:hover {
+  color: lightgrey;
+}
+.project-git:hover {
+  color: rgb(40, 44, 52);
+}
+
+/*@media (max-width: 992px) {
+  .project-desc {
+    font-size: 14px;
+  }
+  .project-tools {
+    font-size: 12px;
+  }
+
+  .project-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-desc {
+    font-size: 12px;
+  }
+  .project-tools {
+    font-size: 10px;
+  }
+}*/
+
+@media (max-width: 576px) {
+  .project-desc {
+    font-size: 14px;
+  }
+  .project-tools {
+    font-size: 12px;
+  }
+}

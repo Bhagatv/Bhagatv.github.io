@@ -1,0 +1,58 @@
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import { Container } from "react-bootstrap";
+import logo from "./akuna_logo2.png";
+import Job from "./JobDescription";
+import "./Carousel.css";
+export default () => (
+  <Carousel
+    autoPlay
+    showArrows={false}
+    showIndicators={false}
+    showStatus={false}
+    dynamicHeight={true}
+    infiniteLoop={true}
+  >
+    <Container fluid style={{ padding: 0 }}>
+      <Job
+        company="Akuna Capital"
+        location="Chicago, IL"
+        dates="Jun 2019 - Aug 2019"
+        tools="Worked on the Risk Development team, which owned tools that the firm used to measure market exposure. Created a long-running service in Python using Asyncio that changed the way trade limits would be configured internally to prevent large monetary losses. I also wrote backend APIs that would aggregate historical trade data for consumption by internal tools."
+        title="Software Engineer Intern"
+        description={[]}
+      />
+      <img style={{ display: "none" }} src={logo} />
+    </Container>
+    <Container fluid style={{ padding: 0 }}>
+      <Job
+        company="UC Irvine"
+        location="Irvine, CA"
+        dates="Sep 2018 - Present"
+        tools="Developed and maintained web applications in PHP and Drupal for various departments throughout the university. Built a React Native mobile application for commencement to help spread information to both students and attendees. Wrote backend APIs in Laravel that transformed student information data and provided developers with an easy endpoint for retrieving data."
+        title="Part Time Software Engineer"
+        description={[]}
+      />
+      <img style={{ display: "none" }} src={logo} />
+    </Container>
+    <Container fluid style={{ padding: 0 }}>
+      <Job
+        company="Aetna"
+        location="Hartford, CT"
+        dates="Jun 2018 - Aug 2018"
+        tools="Worked on a data analytics software team that focused on providing tooling that captured fradulent activity. Developed an application in Python that analyses & scores transaction data to detect fraud and outputs a deliverable report to help management assess daily risk scores. Squashed multiple bugs in production where merchant data was being parsed incorrectly."
+        title="Software Engineer Intern"
+        description={[]}
+      />
+      <img style={{ display: "none" }} src={logo} />
+    </Container>
+    {/*<div>
+      <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
+      <p className="legend">Legend 2</p>
+    </div>
+    <div>
+      <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
+      <p className="legend">Legend 3</p>
+    </div>*/}
+  </Carousel>
+);

@@ -1,7 +1,31 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
-
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+.App:before {
+  content: " ";
+  height: 130vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transform: skewY(-7deg);
+  transform-origin: 0;
+  width: 100%;
+  z-index: -1;
+  background-color: #282c34;
+  background-size: cover;
+  min-height: 650px;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
 }
@@ -19,4 +43,106 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.typed {
+  font-size: 64px;
+  font-family: "Helvetica";
+  font-weight: 100;
+  white-space: pre;
+}
+.front-cont {
+  margin-top: 50px;
+}
+
+.front-row {
+  border: 1px solid white;
+}
+.white-cont {
+  background-color: white;
+  height: 100%;
+  padding: 20px;
+  font-size: 18px;
+  color: black;
+}
+.white-cont:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .white-cont {
+    font-size: 24px;
+  }
+}
+
+.Info {
+  margin-top: 200px;
+
+  padding-top: 50px;
+  background-color: #edf1f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: -1;
+}
+
+.icon {
+  color: white;
+  transition: all 0.1s ease-in;
+}
+.icon:hover {
+  color: black;
+}
+
+.down-arrow {
+  color: black;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.down-arrow:hover {
+  opacity: 0.9;
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+.nav-item {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+#home {
+  padding-top: 50px;
+}
+
+.carousel-slider {
+  box-shadow: 0 20px 50px 0 rgba(34, 43, 55, 0.1);
+  border-radius: 5px;
+}
+
+.carousel .thumbs-wrapper {
+  margin-bottom: 0px;
+}
+
+#projects {
+  padding-top: 100px;
+  text-align: center;
+  background-color: black;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+#navbar {
+  box-shadow: 0 20px 50px 0 rgba(34, 43, 55, 0.2);
 }

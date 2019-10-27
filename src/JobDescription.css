@@ -1,0 +1,17 @@
+.description {
+  list-style-type: disc;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .description {
+    font-size: 12px;
+  }
+}

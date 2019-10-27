@@ -1,0 +1,35 @@
+li[aria-label="slide item 1"] {
+  background: url("https://media.licdn.com/dms/image/C4E0BAQGaxHYyl3mOAg/company-logo_200_200/0?e=2159024400&v=beta&t=YkiwtvhMUq-TplDuXtQke-whftXeXU7gp97OriLakLs");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+li[aria-label="slide item 2"] {
+  background: url("https://media.licdn.com/dms/image/C560BAQEuZlXAuo608Q/company-logo_400_400/0?e=1580342400&v=beta&t=oj-8SgqxZHkIkKZ5sG_ho-A2ALWnkPLttlVa1kmy2Gs");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+li[aria-label="slide item 3"] {
+  background: url("https://media.licdn.com/dms/image/C4E0BAQFhA8h46hvabA/company-logo_400_400/0?e=1580342400&v=beta&t=9XDNuJs9p-pQWcgMjuWJp3XMJmGfr3R7z02pZvutyvw");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.thumb:not(.selected) {
+  opacity: 0.6;
+}
+
+.thumb:hover,
+.selected {
+  opacity: 1;
+  box-shadow: 0 20px 50px 0 rgba(34, 43, 55, 0.3);
+}
+.thumb {
+  width: 80px !important;
+  height: 80px !important;
+  border: 0 !important;
+}
