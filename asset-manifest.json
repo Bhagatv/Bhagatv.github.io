@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.7c77e239.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.af769592.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.af769592.chunk.js.map",
+    "runtime-main.js": "/react_portfolio/static/js/runtime-main.f8b8a1b2.js",
+    "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.f8b8a1b2.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/react_portfolio/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.4e21c643.chunk.js": "/react_portfolio/static/js/2.4e21c643.chunk.js",
+    "static/js/2.4e21c643.chunk.js.map": "/react_portfolio/static/js/2.4e21c643.chunk.js.map",
+    "index.html": "/react_portfolio/index.html",
+    "precache-manifest.037f49f32e763b10a91efab4f7105093.js": "/react_portfolio/precache-manifest.037f49f32e763b10a91efab4f7105093.js",
+    "service-worker.js": "/react_portfolio/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/react_portfolio/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.7c77e239.chunk.css.map": "/react_portfolio/static/css/main.7c77e239.chunk.css.map",
+    "static/media/logo.svg": "/react_portfolio/static/media/logo.25bf045c.svg",
+    "static/media/veeral_bhagat.pdf": "/react_portfolio/static/media/veeral_bhagat.5f56d92b.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8b8a1b2.js",
+    "static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.4e21c643.chunk.js",
+    "static/css/main.7c77e239.chunk.css",
+    "static/js/main.af769592.chunk.js"
+  ]
+}
