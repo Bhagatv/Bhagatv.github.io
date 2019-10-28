@@ -158,7 +158,7 @@ html {
   bottom: 0px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 450px) {
   .icon-cont {
     bottom: 300px;
   }
