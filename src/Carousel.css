@@ -39,4 +39,5 @@ li[aria-label="slide item 3"] {
   width: 80px !important;
   height: 80px !important;
   border: 0 !important;
+  cursor: pointer;
 }

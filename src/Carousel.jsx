@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Container } from "react-bootstrap";
 import Job from "./Job";
+import logo from "./dummy.png";
 import "./Carousel.css";
 export default () => (
   <Carousel
@@ -22,7 +23,7 @@ export default () => (
         title="Software Engineer Intern"
         description={[]}
       />
-      <img style={{ display: "none" }} src={null} alt="dummy img" />
+      <img style={{ display: "none" }} src={logo} alt="dummy img" />
     </Container>
     <Container className="job-cont" fluid>
       <Job
@@ -33,7 +34,7 @@ export default () => (
         title="Part Time Software Engineer"
         description={[]}
       />
-      <img style={{ display: "none" }} src={null} alt="dummy img" />
+      <img style={{ display: "none" }} src={logo} alt="dummy img" />
     </Container>
     <Container className="job-cont" fluid>
       <Job
@@ -44,7 +45,7 @@ export default () => (
         title="Software Engineer Intern"
         description={[]}
       />
-      <img style={{ display: "none" }} src={null} alt="dummy img" />
+      <img style={{ display: "none" }} src={logo} alt="dummy img" />
     </Container>
   </Carousel>
 );
