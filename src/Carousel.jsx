@@ -7,6 +7,7 @@ import "./Carousel.css";
 export default () => (
   <Carousel
     autoPlay
+    interval={10000}
     showArrows={false}
     showIndicators={false}
     showStatus={false}
