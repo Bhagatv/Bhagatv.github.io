@@ -138,6 +138,13 @@ html {
   padding-top: 100px;
   text-align: center;
   background-color: black;
+  padding-bottom: 100px;
+}
+
+#projects-title {
+  color: white;
+  font-size: 64px;
+  padding-bottom: 100px;
 }
 
 .nav-item {
@@ -146,8 +153,36 @@ html {
 
 #navbar {
   box-shadow: 0 20px 50px 0 rgba(34, 43, 55, 0.2);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.2s ease-in;
 }
 
+#section-cont {
+  margin-top: 20px;
+}
+
+#background {
+  background-color: #edf1f2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#carousel-cont {
+  min-width: 200px;
+  max-width: 800px;
+  padding-top: 100px;
+  color: #282c34;
+}
+#experience-title {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
 .icon-cont {
   position: absolute;
   bottom: 150px;

@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ReactHtmlParser from "react-html-parser";
 
-import "./JobDescription.css";
+import "./Job.css";
 export default function Job(props) {
   return (
     <Container

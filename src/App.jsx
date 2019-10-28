@@ -1,21 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
-
-import { Container, Row, Col, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Welcome from "./Welcome";
-import Icons from "./Icons";
-import Project, { InverseProject } from "./Project";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Scrollspy from "react-scrollspy";
-
 import Carousel from "./Carousel";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Container, Navbar, Nav } from "react-bootstrap";
+import Welcome from "./Welcome";
+import Icons from "./Icons";
+import Project from "./Project";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./App.css";
 import "./index.css";
-
-var Trianglify = require("trianglify");
 
 function App() {
   const [navBackground, setNavBackground] = useState(false);
@@ -40,12 +36,6 @@ function App() {
         id="navbar"
         expand="lg"
         style={{
-          position: "fixed",
-          top: 0,
-          right: 0,
-          left: 0,
-          zIndex: 1,
-          transition: "all 0.2s ease-in",
           backgroundColor: navBackground ? "rgb(248, 249, 250)" : "#282c34"
         }}
       >
@@ -90,46 +80,13 @@ function App() {
                   Projects
                 </a>
               </li>
-
-              {/*
-              <a
-                className="nav-item"
-                href="#home"
-                style={{ color: navBackground ? "#282c34" : "white" }}
-              >
-                Home
-              </a>
-
-              <a
-                className="nav-item"
-                href="#info"
-                style={{ color: navBackground ? "#282c34" : "white" }}
-              >
-                Info
-              </a>
-              <a
-                className="nav-item"
-                href="#projects"
-                style={{ color: navBackground ? "#282c34" : "white" }}
-              >
-                Projects
-              </a>*/}
             </Scrollspy>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
-      <div style={{ marginTop: 20 }}>
-        <section
-          id="background"
-          style={{
-            backgroundColor: "#edf1f2",
-            position: "absolute",
-            left: 0,
-            right: 0,
-            zIndex: -1
-          }}
-        >
+      <div id="section-cont">
+        <section id="background">
           <section id="home" className="App">
             <Welcome />
             <Container className="icon-cont">
@@ -145,23 +102,14 @@ function App() {
           </section>
 
           <section id="info" className="Info">
-            <Container
-              style={{
-                minWidth: 200,
-                maxWidth: 800,
-                paddingTop: 100,
-                color: "#282c34"
-              }}
-            >
-              <div style={{ fontSize: 64, marginBottom: 50 }}>Experience</div>
+            <Container id="carousel-cont">
+              <div id="experience-title">Experience</div>
 
               <Carousel />
             </Container>
           </section>
           <section id="projects">
-            <div style={{ color: "white", fontSize: 64, paddingBottom: 100 }}>
-              Projects
-            </div>
+            <div id="projects-title">Projects</div>
             <Project
               title="Emocean"
               quote="Hack UCI 2019 Winner for Hacker's Choice & Best UI/UX"
@@ -183,7 +131,6 @@ function App() {
               link="https://devpost.com/software/pokemon-ar"
               inverse={false}
             />
-            <div style={{ padding: 50 }}></div>
           </section>
         </section>
       </div>

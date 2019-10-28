@@ -1,8 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Container } from "react-bootstrap";
-import logo from "./akuna_logo.png";
-import Job from "./JobDescription";
+import Job from "./Job";
 import "./Carousel.css";
 export default () => (
   <Carousel
@@ -14,7 +13,7 @@ export default () => (
     dynamicHeight={true}
     infiniteLoop={true}
   >
-    <Container fluid style={{ padding: 0 }}>
+    <Container className="job-cont" fluid>
       <Job
         company="Akuna Capital"
         location="Chicago, IL"
@@ -23,9 +22,9 @@ export default () => (
         title="Software Engineer Intern"
         description={[]}
       />
-      <img style={{ display: "none" }} src={logo} />
+      <img style={{ display: "none" }} src={null} alt="dummy img" />
     </Container>
-    <Container fluid style={{ padding: 0 }}>
+    <Container className="job-cont" fluid>
       <Job
         company="UC Irvine"
         location="Irvine, CA"
@@ -34,9 +33,9 @@ export default () => (
         title="Part Time Software Engineer"
         description={[]}
       />
-      <img style={{ display: "none" }} src={logo} />
+      <img style={{ display: "none" }} src={null} alt="dummy img" />
     </Container>
-    <Container fluid style={{ padding: 0 }}>
+    <Container className="job-cont" fluid>
       <Job
         company="Aetna"
         location="Hartford, CT"
@@ -45,15 +44,7 @@ export default () => (
         title="Software Engineer Intern"
         description={[]}
       />
-      <img style={{ display: "none" }} src={logo} />
+      <img style={{ display: "none" }} src={null} alt="dummy img" />
     </Container>
-    {/*<div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
-      <p className="legend">Legend 2</p>
-    </div>
-    <div>
-      <img src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
-      <p className="legend">Legend 3</p>
-    </div>*/}
   </Carousel>
 );

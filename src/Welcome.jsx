@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { CSSTransitionGroup } from "react-transition-group";
-import logo from "./logo.svg";
 import Typed from "react-typed";
 
 import "./Welcome.css";
 
 export default function Welcome() {
   const [first_delay, setFirst] = useState(false);
-  const [second_delay, setSecond] = useState(false);
 
   const mountedTitle = {
     opacity: 1,
@@ -34,9 +31,6 @@ export default function Welcome() {
     setTimeout(() => {
       setFirst(true);
     }, 1000);
-    setTimeout(() => {
-      setSecond(true);
-    }, 2000);
   }, []);
 
   return (
