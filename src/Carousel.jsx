@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Container } from "react-bootstrap";
-
+import logo from "./akuna_logo.png";
 import Job from "./JobDescription";
 import "./Carousel.css";
 export default () => (
