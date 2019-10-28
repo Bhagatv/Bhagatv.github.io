@@ -132,15 +132,10 @@ function App() {
         >
           <section id="home" className="App">
             <Welcome />
-            <Container
-              style={{
-                position: "absolute",
-                bottom: 150
-              }}
-            >
+            <Container className="icon-cont">
               <Icons />
             </Container>
-            <a href="#info" style={{ position: "absolute", bottom: 0 }}>
+            <a href="#info" className="down-arrow-cont">
               <FontAwesomeIcon
                 size="5x"
                 className="down-arrow"
@@ -177,7 +172,7 @@ function App() {
             <Project
               title="InstaCar"
               quote="Hack USC 2019 Winner for Best use of Smartcar API"
-              desc="InstaCar is a peer-to-peer car renting service that allows for an interactionless exchange between owners and renters. Our platform allows users to rent, unlock, and even find nearby vehicles all through the web interface. Builting using a Python Flask backend, Google Firebase for storing ehicle and user data, and vanilla HTML/CSS for the frontend."
+              desc="InstaCar is a peer-to-peer car renting service that allows for an interactionless exchange between owners and renters. Our platform allows users to rent, unlock, and even find nearby vehicles all through the web interface. Builting using a Python Flask backend, Google Firebase for storing vehicle and user data, and vanilla HTML/CSS for the frontend."
               link="https://devpost.com/software/instacar-o4ge0r"
               inverse
             />

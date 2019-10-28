@@ -1,17 +1,19 @@
 .description {
   list-style-type: disc;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 18px;
+  color: #646f79;
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
   .description {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 576px) {
   .description {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

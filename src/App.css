@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 .App {
   min-height: 100vh;
@@ -145,4 +146,23 @@ html {
 
 #navbar {
   box-shadow: 0 20px 50px 0 rgba(34, 43, 55, 0.2);
+}
+
+.icon-cont {
+  position: absolute;
+  bottom: 150px;
+}
+
+.down-arrow-cont {
+  position: absolute;
+  bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  .icon-cont {
+    bottom: 250px;
+  }
+  .down-arrow-cont {
+    bottom: 100px;
+  }
 }

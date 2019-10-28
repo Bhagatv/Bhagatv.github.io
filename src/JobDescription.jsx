@@ -57,10 +57,8 @@ export default function Job(props) {
         >
           <Container fluid style={{ height: "100%" }}>
             <Row style={{ height: "100%" }}>
-              <Col className="my-auto">
-                <p style={{ color: "#646f79", opacity: 0.8, fontSize: 18 }}>
-                  {props.tools}
-                </p>
+              <Col className="my-auto description">
+                <p>{props.tools}</p>
               </Col>
             </Row>
           </Container>
