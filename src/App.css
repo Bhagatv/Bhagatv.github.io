@@ -160,9 +160,9 @@ html {
 
 @media (max-width: 576px) {
   .icon-cont {
-    bottom: 250px;
+    bottom: 300px;
   }
   .down-arrow-cont {
-    bottom: 100px;
+    bottom: 150px;
   }
 }
