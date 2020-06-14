@@ -16,6 +16,17 @@ export default () => (
   >
     <Container className="job-cont" fluid>
       <Job
+        company="Asana"
+        location="San Francisco, CA"
+        dates="Jan 2020 - April 2020"
+        tools="Coming soon..."
+        title="Software Engineer Intern"
+        description={[]}
+      />
+      <img style={{ display: "none" }} src={logo} alt="dummy img" />
+    </Container>
+    <Container className="job-cont" fluid>
+      <Job
         company="Akuna Capital"
         location="Chicago, IL"
         dates="Jun 2019 - Aug 2019"

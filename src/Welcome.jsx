@@ -9,22 +9,22 @@ export default function Welcome() {
   const mountedTitle = {
     opacity: 1,
     transition: "opacity 500ms ease-in",
-    fontSize: 128
+    fontSize: 128,
   };
   const unmountedTitle = {
     opacity: 0,
     transition: "opacity 500ms ease-in",
-    fontSize: 128
+    fontSize: 128,
   };
   const mountedStyle = {
     opacity: 1,
     transition: "opacity 500ms ease-in",
-    fontSize: 28
+    fontSize: 28,
   };
   const unmountedStyle = {
     opacity: 0,
     transition: "opacity 500ms ease-in",
-    fontSize: 28
+    fontSize: 28,
   };
 
   useEffect(() => {
@@ -41,7 +41,7 @@ export default function Welcome() {
         style={first_delay ? mountedStyle : unmountedStyle}
         strings={[
           "My name is Veeral Bhagat.",
-          "I am a fourth year computer science major."
+          "I graduated from UCI and work as a software engineer at Asana.",
         ]}
         typeSpeed={30}
         backSpeed={30}

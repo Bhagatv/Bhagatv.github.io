@@ -3,21 +3,28 @@
 }
 
 li[aria-label="slide item 1"] {
-  background: url("https://media.licdn.com/dms/image/C4E0BAQGaxHYyl3mOAg/company-logo_200_200/0?e=2159024400&v=beta&t=YkiwtvhMUq-TplDuXtQke-whftXeXU7gp97OriLakLs");
+  background: url("images/asana.png");
   background-size: cover;
   width: 80px;
   height: 80px;
 }
 
 li[aria-label="slide item 2"] {
-  background: url("https://media.licdn.com/dms/image/C560BAQEuZlXAuo608Q/company-logo_400_400/0?e=1580342400&v=beta&t=oj-8SgqxZHkIkKZ5sG_ho-A2ALWnkPLttlVa1kmy2Gs");
+  background: url("images/akuna.png");
   background-size: cover;
   width: 80px;
   height: 80px;
 }
 
 li[aria-label="slide item 3"] {
-  background: url("https://media.licdn.com/dms/image/C4E0BAQFhA8h46hvabA/company-logo_400_400/0?e=1580342400&v=beta&t=9XDNuJs9p-pQWcgMjuWJp3XMJmGfr3R7z02pZvutyvw");
+  background: url("images/uci.png");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
+li[aria-label="slide item 4"] {
+  background: url("images/aetna.png");
   background-size: cover;
   width: 80px;
   height: 80px;
