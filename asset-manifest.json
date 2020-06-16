@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.cead2f8a.chunk.css",
-    "main.js": "/static/js/main.6cbbe8af.chunk.js",
-    "main.js.map": "/static/js/main.6cbbe8af.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e03af4ce.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e03af4ce.js.map",
-    "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.a1373247.chunk.js": "/static/js/2.a1373247.chunk.js",
-    "static/js/2.a1373247.chunk.js.map": "/static/js/2.a1373247.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8244104513ea808d0dae6ebf1c986924.js": "/precache-manifest.8244104513ea808d0dae6ebf1c986924.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.cead2f8a.chunk.css.map": "/static/css/main.cead2f8a.chunk.css.map",
-    "static/media/veeral_bhagat.pdf": "/static/media/veeral_bhagat.5f56d92b.pdf"
+    "main.css": "/react_portfolio/static/css/main.dacb198d.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.2e2d4245.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.2e2d4245.chunk.js.map",
+    "runtime-main.js": "/react_portfolio/static/js/runtime-main.f8b8a1b2.js",
+    "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.f8b8a1b2.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/react_portfolio/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.41e65f5d.chunk.js": "/react_portfolio/static/js/2.41e65f5d.chunk.js",
+    "static/js/2.41e65f5d.chunk.js.map": "/react_portfolio/static/js/2.41e65f5d.chunk.js.map",
+    "index.html": "/react_portfolio/index.html",
+    "precache-manifest.6ea1bc502e87c1e787d357670e4c9373.js": "/react_portfolio/precache-manifest.6ea1bc502e87c1e787d357670e4c9373.js",
+    "service-worker.js": "/react_portfolio/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/react_portfolio/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.dacb198d.chunk.css.map": "/react_portfolio/static/css/main.dacb198d.chunk.css.map",
+    "static/media/Carousel.css": "/react_portfolio/static/media/uci.82599e53.png",
+    "static/media/veeral_bhagat.pdf": "/react_portfolio/static/media/veeral_bhagat.5f56d92b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e03af4ce.js",
+    "static/js/runtime-main.f8b8a1b2.js",
     "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.a1373247.chunk.js",
-    "static/css/main.cead2f8a.chunk.css",
-    "static/js/main.6cbbe8af.chunk.js"
+    "static/js/2.41e65f5d.chunk.js",
+    "static/css/main.dacb198d.chunk.css",
+    "static/js/main.2e2d4245.chunk.js"
   ]
 }
