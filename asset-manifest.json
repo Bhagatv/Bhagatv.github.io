@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba929571.chunk.css",
+    "main.js": "/static/js/main.b5304b6b.chunk.js",
+    "main.js.map": "/static/js/main.b5304b6b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e03af4ce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e03af4ce.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.41e65f5d.chunk.js": "/static/js/2.41e65f5d.chunk.js",
+    "static/js/2.41e65f5d.chunk.js.map": "/static/js/2.41e65f5d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bf032604912b3a66642359738c3291bb.js": "/precache-manifest.bf032604912b3a66642359738c3291bb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.ba929571.chunk.css.map": "/static/css/main.ba929571.chunk.css.map",
+    "static/media/Carousel.css": "/static/media/uci.82599e53.png",
+    "static/media/veeral_bhagat.pdf": "/static/media/veeral_bhagat.5f56d92b.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e03af4ce.js",
+    "static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.41e65f5d.chunk.js",
+    "static/css/main.ba929571.chunk.css",
+    "static/js/main.b5304b6b.chunk.js"
+  ]
+}
